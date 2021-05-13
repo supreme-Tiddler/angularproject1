@@ -13,4 +13,4 @@ Run `ng serve --open` for a dev server. Navigate to `http://localhost:4200/`. Th
 
 首页数据地址:  "api/productlist/"
 
-详情页数据地址: "api/productcontent?id="+id
+详情页数据地址: "api/productcontent?id="
