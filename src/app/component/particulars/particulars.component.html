@@ -1,0 +1,23 @@
+<header>
+  <div class="back__hone">
+    <a [routerLink]="[ '/home' ]">返回</a>
+  </div>
+
+  <h3>详情页</h3>
+</header>
+
+
+<div class="content">
+
+  <div class="meun__ltem" *ngFor="let item of particularsList">
+    <h3>{{item.catename}}</h3>
+
+    <img [src]=" domain+ item.img_url" alt="">
+    <h3 class="item_cate">{{item.title}}</h3>
+   
+    <p class="title" [innerHTML]="item.content"></p>
+
+
+  </div>
+
+</div>

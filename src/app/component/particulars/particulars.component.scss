@@ -1,0 +1,26 @@
+.back__hone{
+  background-color: royalblue;
+  display: inline-block;
+  border-radius: 50%;
+  position: absolute;
+  top: 15px;
+  left: 5px;
+  a{
+    padding: 10px;
+  }
+}
+
+.content{
+  background-color: rgb(245,245,245);
+  padding: 0 20px;
+  h3{
+    padding: 20px;
+  }
+  img{
+    width: 100%;
+    max-width: 400px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0px);
+  }
+}

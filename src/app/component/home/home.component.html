@@ -1,0 +1,30 @@
+<header>
+  <h3>首页</h3>
+</header>
+
+
+
+
+<div class="content">
+
+
+  <div class="meun__ltem" *ngFor="let item of homeList">
+
+    <h3 class="item_cate">{{item.title}}</h3>
+    <ul>
+      <li class="item" *ngFor="let food of item.list">
+        <div class="inner">
+          <a [routerLink]="[ '/particulars', food._id ]">
+           
+            <img [src]=" domain+ food.img_url" alt="">
+            <p class="title">{{food.title}}</p>
+            <p class="price">${{food.price}}</p>
+        </a>
+        </div>
+      </li>
+    </ul>
+
+  </div>
+
+
+</div>
